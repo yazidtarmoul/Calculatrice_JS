@@ -1,0 +1,49 @@
+html{
+    font-family: "Arial ";
+    background-color:rgb(140, 133, 133)
+}
+.wrapper{
+    margin-left: 500px;
+    padding: 50px;
+    margin-right: ;
+   
+}
+.display {
+    background-color:white;
+    color: black;
+    padding: 15px;
+    width: 250px;
+    text-align: right;
+    font-size: 20px;
+    border-radius:10px;
+    
+}
+button {
+    padding: 10px;
+    width: 67px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: rgb(87, 87, 87);
+    color:white;
+    font-size: 20px;
+    border-bottom: 10px;
+}
+.cl{
+    background-color: orange;
+}
+.btn{
+    border-radius: 10px;
+    background-color: rgb(156, 151, 151);
+}
+.btn1{
+    background-color: rgb(156, 151, 151);
+
+
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(233, 224, 224);
+}
+button:active {
+    background-color: rgb(136, 136, 136);
+}

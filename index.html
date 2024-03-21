@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="main">
+        <div class="display">
+            <p id="output"> 0</p>
+        </div>
+        <div class="premier_rang">
+            <button id="r1-c1" class="btn" style="width: 138px;" onclick="forclear()" >C</button>            
+            <button id="r1-c2" class = "btn1" onclick="perc()">%</button>
+            <button class="cl" id="r1-c3" onclick="fordisplay('/')">/</button>
+    
+        </div>
+        <div class="deuxième_rang">
+            <button id="r2-c1" onclick="fordisplay('7' )">7</button>
+            <button id="r2-c2" onclick="fordisplay('8')" >8</button>
+            <button id="r2-c3" onclick="fordisplay('9')" >9</button>
+            <button class = "cl" id="r2-c4" onclick="fordisplay('*')" >X</button>
+        </div>
+        <div class="troisieme_rang">
+            <button id="r3-c1" onclick="fordisplay('4')" >4</button>
+            <button id="r3-c2" onclick="fordisplay('5')" >5</button>
+            <button id="r3-c3" onclick="fordisplay('6')" >6</button>
+            <button class = "cl" id="r3-c4" onclick="fordisplay('-')" >-</button>
+        </div>
+        <div class="quatrieme_rang">
+            <button id="r4-c1" onclick="fordisplay('1')"  >1</button>
+            <button id="r4-c2" onclick="fordisplay('2')"  >2</button>
+            <button id="r4-c3" onclick="fordisplay('3')"  >3</button>
+            <button class = "cl" id="r4-c4" onclick="fordisplay('+')"  >+</button>
+        </div>
+        <div class="fifth-row">
+            <button id="r5-c1" onclick = "fordisplay('0')" style="width: 138px;">0</button>
+            <button id="r5-c2" onclick = "fordisplay('.')" >.</button>
+            <button class = "cl" id="r5-c3" onclick = "calcul()" >=</button>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
